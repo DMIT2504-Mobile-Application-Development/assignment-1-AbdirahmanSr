@@ -9,7 +9,7 @@
     },
     {
       "name": "_macros",
-      "rootUri": "file:///C:/dartsdk-windows-x64-release/dart-sdk/pkg/_macros",
+      "rootUri": "file:///C:/NAIT%205/Mobile%20Application%20Development/dartsdk-windows-arm64-release/dart-sdk/pkg/_macros",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -314,7 +314,7 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2025-05-19T06:05:24.339881Z",
+  "generated": "2025-05-21T22:05:50.515421Z",
   "generator": "pub",
   "generatorVersion": "3.7.3",
   "pubCache": "file:///C:/Users/abdir/AppData/Local/Pub/Cache"
