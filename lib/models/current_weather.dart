@@ -1,5 +1,6 @@
 import 'dart:ffi';
 
+//methods/members
 class CurrentWeather
 {
   String _city;
@@ -9,6 +10,7 @@ class CurrentWeather
   DateTime _sunrise;
   DateTime _sunset;
 
+  //getters and setters
   String get city => _city;
   String get description => _description;
   double get currentTemp => _currentTemp;
@@ -70,6 +72,7 @@ class CurrentWeather
     _sunset = value;
   }
 
+  //generative constructor
   CurrentWeather({
     required String city,
     required String description,
@@ -91,6 +94,7 @@ class CurrentWeather
     this.sunset = sunset;
   }
 
+  //factory constructor
   factory CurrentWeather.fromOpenWeatherData(dynamic data) {
     try {
       final city = data['name'] as String;
@@ -113,6 +117,7 @@ class CurrentWeather
     }
   }
 
+  // string override method
   @override
   String toString() {
     return 'City: $_city, Description: $_description, Current Temperature: $_currentTemp, '
