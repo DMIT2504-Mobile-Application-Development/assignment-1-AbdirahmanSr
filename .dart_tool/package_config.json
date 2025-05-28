@@ -9,9 +9,9 @@
     },
     {
       "name": "_macros",
-      "rootUri": "file:///C:/dartsdk-windows-x64-release/dart-sdk/pkg/_macros",
+      "rootUri": "file:///C:/tools/dart-sdk/pkg/_macros",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.5"
     },
     {
       "name": "analyzer",
@@ -314,8 +314,7 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2025-05-24T03:15:36.951004Z",
   "generator": "pub",
-  "generatorVersion": "3.7.3",
+  "generatorVersion": "3.8.0",
   "pubCache": "file:///C:/Users/abdir/AppData/Local/Pub/Cache"
 }
