@@ -65,7 +65,7 @@ class CurrentWeather
 
   set sunset (DateTime value)
   {
-    if (value != DateTime.now() || value.isBefore(DateTime.now()))
+    if ( value.isBefore(DateTime.now()))
     {
       throw Exception('Sunset cannot be before sunrise');
     }
