@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 //methods/members
 class CurrentWeather
 {
